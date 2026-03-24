@@ -1,11 +1,1 @@
-body {
-  margin: 0;
-  font-family: system-ui;
-  background: #ffffff;
-}
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 20px;
-}
+body { margin:0; font-family: Arial; }
