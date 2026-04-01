@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triesse Info | Tecnologia de Performance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-triesse-orange { background-color: #f1a95c; } /* Cor aproximada do logo */
+        .text-triesse-orange { color: #f1a95c; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+        <img src="LOGO.png" alt="Triesse Info" class="h-12">
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#servicos" class="hover:text-triesse-orange transition">Serviços</a>
+            <a href="#parceiros" class="hover:text-triesse-orange transition">Parceiros</a>
+            <a href="#contato" class="bg-black text-white px-5 py-2 rounded-lg hover:bg-gray-800 transition">Contato</a>
+        </div>
+    </nav>
+
+    <header class="py-20 px-6 text-center max-w-4xl mx-auto">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6 italic tracking-tight">Transformando tecnologia em <span class="text-triesse-orange">resultados reais.</span></h1>
+        <p class="text-lg text-gray-600 mb-10">Há 20 anos oferecendo inteligência em TI, suporte especializado e infraestrutura de alta performance para sua empresa.</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#contato" class="bg-triesse-orange text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:opacity-90 transition">Solicitar Consultoria</a>
+            <a href="#servicos" class="border-2 border-black px-8 py-4 rounded-xl font-bold text-lg hover:bg-black hover:text-white transition">Nossos Serviços</a>
+        </div>
+    </header>
+
+    <section id="servicos" class="bg-gray-50 py-20 px-6">
+        <div class="max-w-7xl mx-auto text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Soluções Especializadas</h2>
+            <div class="h-1 w-20 bg-triesse-orange mx-auto"></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold mb-4">Suporte e Outsourcing</h3>
+                <p class="text-gray-600">Gestão completa de TI e Help Desk para manter sua operação sempre online.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold mb-4">Infraestrutura</h3>
+                <p class="text-gray-600">Especialistas em servidores Dell, HP e Linux, garantindo máxima performance.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold mb-4">Segurança de Dados</h3>
+                <p class="text-gray-600">Implementação de firewalls e antivírus corporativos líderes de mercado.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="parceiros" class="py-20 px-6 max-w-7xl mx-auto text-center">
+        <h2 class="text-2xl font-bold text-gray-400 uppercase tracking-widest mb-12 italic">Parceiros Estratégicos</h2>
+        <div class="flex flex-wrap justify-center items-center gap-12 opacity-60 grayscale hover:grayscale-0 transition-all">
+            <span class="text-2xl font-bold">DELL Technologies [cite: 9]</span>
+            <span class="text-2xl font-bold">Intel Alliance [cite: 11]</span>
+            <span class="text-2xl font-bold">Microsoft Partner [cite: 7]</span>
+            <span class="text-2xl font-bold">F-Secure [cite: 8]</span>
+        </div>
+    </section>
+
+    <footer id="contato" class="bg-black text-white py-16 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-8 md:mb-0">
+                <img src="LOGO.png" alt="Triesse" class="h-10 mb-4 brightness-200">
+                <p class="text-gray-400">© 2026 Triesse Info. Todos os direitos reservados.</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="font-bold text-xl mb-2 text-triesse-orange">www.triesse.com.br</p>
+                <p class="text-gray-400 italic">Soluções inteligentes em Tecnologia da Informação.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
