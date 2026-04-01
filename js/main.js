@@ -1,13 +1,14 @@
 document.getElementById("leadForm").addEventListener("submit", async (e) => {
   e.preventDefault();
 
+  const formData = new FormData(e.target);
   const data = {
-    nome: e.target[0].value,
-    email: e.target[1].value,
-    empresa: e.target[2].value
+    nome: formData.get('nome'),
+    email: formData.get('email'),
+    empresa: formData.get('empresa')
   };
 
-  console.log("Lead:", data);
-
+  console.log("Lead capturado:", data);
   alert("Recebido! Vamos entrar em contato.");
+  e.target.reset(); // Limpa o formulário após envio
 });
